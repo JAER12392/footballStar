@@ -32,13 +32,13 @@ onSignUp() {
      return (
        <div>
         <div className="well" style={{maxWidth: 400, margin: '0 auto 10px'}}>
-          <Button bsStyle="primary" bsSize="large" block>Sign In</Button>
+          <Button onClick={this.onSignIn} bsStyle="primary" bsSize="large" block>Sign In</Button>
           <Collapse in={this.state.onSignIn}>
             <div>
              <SignIn />
             </div>
           </Collapse>
-          <Button bsSize="large" block>Sign Up</Button>
+          <Button onClick={this.onSignUp} bsSize="large" block>Sign Up</Button>
           <Collapse in={this.state.onSignUp}>
             <div>
                <SignUp />
