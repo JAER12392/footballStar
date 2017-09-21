@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "prestart": "babel-node server/startMessage.js",
-    "start": "npm-run-all --parallel open:src",
+    "start": "npm-run-all --parallel open:src lint:watch",
     "open:src": "nodemon --exec babel-node server/server.js",
     "lint": "esw webpack.config.* src server --color",
+    "lint:watch": "npm run lint -- --watch",
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel open:src localtunnel"
   },
@@ -39,6 +40,7 @@
     "eslint-plugin-import": "^1.14.0",
     "eslint-watch": "^2.1.14",
     "express": "^4.14.4",
+    "history": "^4.7.2",
     "html-webpack-plugin": "^2.22.0",
     "jsdom": "^9.4.2",
     "localtunnel": "^1.8.1",
@@ -53,6 +55,7 @@
     "react-bootstrap": "^0.31.3",
     "react-dom": "^15.6.1",
     "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
     "rimraf": "^2.5.4",
     "webpack": "^1.13.2",

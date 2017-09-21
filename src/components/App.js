@@ -6,7 +6,6 @@ class App extends React.Component {
   render() {
     return (
     <div>
-      <p>Football Your Way! </p>
       <div>
       <JumboTron />
       </div>
