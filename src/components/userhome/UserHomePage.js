@@ -1,5 +1,7 @@
 import React from 'react';
-import MainCard from './MainCard.js';
+import VideoOne from './VideoOne.js';
+import SubCardTwo from './SubCardTwo.js';
+
 
 class UserHomePage extends React.Component {
   constructor(props) {
@@ -30,7 +32,10 @@ class UserHomePage extends React.Component {
     return (
         <div>
           <div>
-            <MainCard />
+          <VideoOne />
+          </div>
+          <div>
+          <SubCardTwo />
           </div>
           </div>
       );
