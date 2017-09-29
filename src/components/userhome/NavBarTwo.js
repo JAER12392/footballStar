@@ -11,7 +11,7 @@ const NavBarTwo = () => (
     <Nav>
       <NavItem eventKey={1} href="#">News</NavItem>
       <NavItem eventKey={2} href="#">Matches</NavItem>
-      <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
+      <NavDropdown eventKey={3} title="Players" id="basic-nav-dropdown">
 
         <MenuItem eventKey={3.1}>Cristiano Ronaldo</MenuItem>
         <MenuItem eventKey={3.2}>Luis Figo</MenuItem>

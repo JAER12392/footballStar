@@ -1,6 +1,11 @@
 import React from 'react';
-import VideoOne from './VideoOne.js';
+import NavBarTwo from './NavBarTwo.js';
+import MainCard from './MainCard.js';
+import SubCardOne from './SubCardOne.js';
 import SubCardTwo from './SubCardTwo.js';
+import VideoOne from './VideoOne.js';
+import VideoTwo from './VideoTwo.js';
+import BottomFooter from './BottomFooter.js';
 
 
 class UserHomePage extends React.Component {
@@ -9,33 +14,27 @@ class UserHomePage extends React.Component {
     this.state = {}
   }
 
-   // <div>
-   // <MainCard />
-   // </div>
-   // <div>
-   //   <SubCardOne />
-   // </div>
-   // <div>
-   //   <SubCardTwo />
-   // </div>
-   // <div>
-   //   <VideoOne />
-   // </div>
-   // <div>
-   //   <VideoTwo />
-   // </div>
-   // <div>
-   //   <BottomFooter />
-   // </div>
+
 
   render() {
     return (
         <div>
           <div>
-          <VideoOne />
+          <NavBarTwo />
           </div>
           <div>
-          <SubCardTwo />
+          <MainCard />
+          </div>
+          <div className="videoOne">
+            <SubCardOne />
+            <VideoOne />
+          </div>
+          <div className="videoTwo">
+            <SubCardTwo />
+            <VideoTwo />
+          </div>
+          <div>
+            <BottomFooter />
           </div>
           </div>
       );

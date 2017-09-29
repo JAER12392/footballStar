@@ -31,6 +31,9 @@ onSignUp() {
    render() {
      return (
        <div>
+       <div class="logo">
+         <h1> footballStar </h1>
+       </div>
         <div style={{maxWidth: 300, margin: '0 auto 10px'}}>
           <Button onClick={this.onSignIn} bsStyle="primary" bsSize="large" block>Sign In</Button>
           <Collapse in={this.state.onSignIn}>
