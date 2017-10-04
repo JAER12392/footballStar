@@ -48,6 +48,7 @@
     "jquery": "^3.2.1",
     "jsdom": "^9.4.2",
     "localtunnel": "^1.8.1",
+    "material-ui": "^0.19.3",
     "materialize": "^1.0.0",
     "materialize-css": "^0.100.2",
     "mocha": "^3.0.2",

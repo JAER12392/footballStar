@@ -2,7 +2,7 @@ import React from 'react';
 import { Footer } from 'react-materialize';
 
 const BottomFooter = ({}) => (
-  <Footer copyrights="&copy 2015 Copyright Text"
+  <Footer copyrights="Z/JAER production"
     moreLinks={
       <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
     }
@@ -16,8 +16,8 @@ const BottomFooter = ({}) => (
     }
     className='example'
   >
-      <h5 className="white-text">Footer Content</h5>
-      <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+      <h5 className="white-text">footballStar</h5>
+      <p className="grey-text text-lighten-4">The daily diary of the footballers dream</p>
   </Footer>
   );
 

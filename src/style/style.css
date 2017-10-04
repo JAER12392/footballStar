@@ -9,49 +9,39 @@
   font-family: 'Lora', serif;
 }
 
+
 /* CSS for UserHomePage */
 
 .mainCardTitle {
   text-align: center;
 }
 
-.subCardOne {
- float:left;
- position: relative;
- width: 70%;
- padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
- margin:1.66%;
- overflow:hidden;
-}
-
-.subCardTwo {
-  float:left;
-  position: relative;
-  width: 70%;
-  padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-  margin:1.66%;
-  overflow:hidden;
+footer.page-footer {
+  background-color: #375F6A;
 }
 
 .videoOne {
   width: 700px;
   height: 700px;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 
 .videoTwo {
   width: 700px;
   height: 700px;
-  float: right;
-  position: relative;
-  padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-  margin:1.66%;
-  overflow:hidden;
-
+  display: flex;
+  justify-content: center;
 }
 
-display:flex; flex-direction:row;
+.subcardone {
+  display: flex;
+  justify-content: flex-start;
+}
 
+.subcardtwo {
+  display: flex;
+  justify-content: flex-start;
+}
 
-
+/* CSS for NewsPage */

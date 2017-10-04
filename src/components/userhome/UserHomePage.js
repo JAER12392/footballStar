@@ -15,7 +15,6 @@ class UserHomePage extends React.Component {
   }
 
 
-
   render() {
     return (
         <div>
@@ -26,13 +25,17 @@ class UserHomePage extends React.Component {
           <MainCard />
           </div>
           <div className="videoOne">
-            <SubCardOne />
             <VideoOne />
           </div>
+          <div className="subcardone">
+            <SubCardOne />
+            </div>
           <div className="videoTwo">
-            <SubCardTwo />
             <VideoTwo />
           </div>
+          <div className="subcardtwo">
+            <SubCardTwo />
+            </div>
           <div>
             <BottomFooter />
           </div>
