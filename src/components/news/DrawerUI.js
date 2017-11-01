@@ -27,7 +27,7 @@ class DrawerUI extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="drawer">
         <RaisedButton
           label="JAER Timeline"
           onClick={this.handleToggle}

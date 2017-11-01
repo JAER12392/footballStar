@@ -14,7 +14,7 @@ const BottomFooterTwo = ({}) => (
         <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
       </ul>
     }
-    className='example'
+    className='two'
   >
       <h5 className="white-text">footballStar</h5>
       <p className="grey-text text-lighten-4">The daily diary of the footballers dream</p>

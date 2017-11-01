@@ -45,3 +45,50 @@ footer.page-footer {
 }
 
 /* CSS for NewsPage */
+
+.headlines {
+  float: right;
+  width: 585px;
+  height: 620px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.thead {
+  border: 3px dashed #36454F;
+  float: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.whead {
+  border: 5px;
+  float: center;
+  margin-top: 50px;
+}
+
+.video {
+  width: 585px;
+  height: 620px;
+  margin-left: 20px;
+  float: left;
+}
+
+.bottomfooter {
+  margin-top: 700px;
+  justify-content: flex-end;
+}
+
+.page-footer two {
+  margin-top: 50px;
+  justify-content: flex-end;
+  height: 300px;
+}
+
+.copyright {
+  justify-content: flex-end;
+}
+
+.vid3 {
+  margin-bottom: 20px;
+}
