@@ -10,7 +10,7 @@ const MainCardTwo = ({}) => (
       The award, which covers the period of Nov. 20, 2016, to July 2, 2017, is voted for by national team coaches, captains, selected media and fans and will be handed out at the Best FIFA Football Awards ceremony on Oct. 23 in London.</p>}>
       <p><a href="#">This is a link</a></p>
   </Card>
-      </div>
+  </div>
 
 );
 

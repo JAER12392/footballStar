@@ -1,4 +1,5 @@
 import path from 'path';
+import webpack from'webpack';
 
 export default {
   debug: true,
@@ -13,7 +14,10 @@ export default {
     publicPath: '/',
     filename: 'bundle.js'
   },
-  plugins: [],
+  plugins: [ new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery"
+    })],
   module: {
     loaders: [
       {test: /\.js$/, exclude: /node_modules/, loaders: ['babel']},

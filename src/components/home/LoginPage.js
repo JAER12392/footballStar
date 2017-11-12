@@ -30,8 +30,8 @@ onSignUp() {
 
    render() {
      return (
-       <div>
-        <div style={{maxWidth: 300, margin: '0 auto 10px'}}>
+       <div className="buttons">
+        <div style={{maxWidth: 400, margin: '0 auto 10px'}}>
           <Button onClick={this.onSignIn} bsStyle="primary" bsSize="large" block>Sign In</Button>
           <Collapse in={this.state.onSignIn}>
             <div>
