@@ -8,8 +8,7 @@ const Header = () => (
     <div id="quote-center">
     <img id="poker" src={"https://s5.postimg.org/70ejjptvb/jaer.png"} />
     <div id="nav-quote">
-     <p>Put your heart, mind, and soul into even your smallest acts.</p>
-     <p>This is the secret of success.</p>
+      <p>FootballStar</p>
      </div>
     <div id="buttons">
         <ul><Button className="demo-button" bsSize="xsmall"  bsStyle="danger">TryfootballStar</Button></ul>

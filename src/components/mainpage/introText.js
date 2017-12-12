@@ -2,7 +2,7 @@ import React from 'React';
 
 const IntroText = () => (
 
-    <h1 id="intro-text">footballStar, a little boys
+    <h1 id="intro-text">FootballStar, a little boys
       <span
          className="txt-rotate"
          data-period="1000"
