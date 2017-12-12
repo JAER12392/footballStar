@@ -1,18 +1,10 @@
 import React, {PropTypes} from 'react';
-// import LoginPage from './home/LoginPage.js';
-// import JumboTron from './home/JumboTron.js';
-// import NavBar from './home/NavBar.js';
-//import UserHomePage from './userhome/UserHomePage.js';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import NewsPage from './news/NewsPage.js'
+import MainPage from './mainpage/MainPage.js';
 
 
 
-    // <div className="appParent">
-    //   <NavBar />
-    //   <JumboTron />
-    //   <LoginPage />
-    // </div>
+
+
     //The above is for the app side of the page the very front page
 
 
@@ -21,14 +13,17 @@ import NewsPage from './news/NewsPage.js'
 
       // </div>
 
+    //  <MuiThemeProvider>
+    //  <NewsPage />
+    // </MuiThemeProvider>
 
 
 class App extends React.Component {
   render() {
     return (
-     <MuiThemeProvider>
-     <NewsPage />
-    </MuiThemeProvider>
+      <div className="appParent">
+        <MainPage />
+      </div>
     );
   }
 }
