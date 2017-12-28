@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
-import MainPage from './mainpage/MainPage.js';
-
-
+//import MainPage from './mainpage/MainPage.js';
+// <MainPage />
+import  UserHomePage from './userhomepage/UserHomePage.js';
 
 
 
@@ -22,7 +22,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="appParent">
-        <MainPage />
+        <UserHomePage />
       </div>
     );
   }

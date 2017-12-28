@@ -3,6 +3,8 @@ import Header from './header.js';
 import SessionSignUp from './sessionSignUp.js';
 import IntroText from './introText.js';
 import PDisplay from './parrallax.js';
+import { Col } from 'react-materialize';
+import 'materialize-css';
 
 
 
@@ -14,7 +16,9 @@ class MainPage extends React.Component {
       <div>
         <Header />
           <div id="content-div">
+            <div id="animated-intro">
             <IntroText />
+            </div>
             <div id="inner-content">
               <p>Sign Up for Free</p>
               <SessionSignUp />
