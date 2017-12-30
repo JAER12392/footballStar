@@ -183,6 +183,7 @@ footer a:hover {
 #second-section-videos {
   margin-top: 100px;
   margin-left: 100px;
+  width: 558px;
 }
 
 #userhp-video2 {
@@ -190,8 +191,16 @@ footer a:hover {
 }
 
 
-.red .card {
-  height: 235px;
+.notecardone {
+  width: 558px;
+}
+
+.notecardtwo {
+  width: 558px;
+}
+
+#second-section-notecards {
+  float: right;
   width: 558px;
 }
 
