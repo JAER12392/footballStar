@@ -4,7 +4,6 @@ import FaFutbol from 'react-icons/lib/fa/futbol-o';
 import FaStar from 'react-icons/lib/fa/star-o';
 import 'materialize-css';
 
-t
 const pDisplay = () => (
   <div>
   <Parallax imageSrc="https://s18.postimg.org/b5zwhcyop/color-skyline.jpg" className="grey-text text-darken-3 lighten-3" title='wow'/>

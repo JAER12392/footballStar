@@ -180,29 +180,50 @@ footer a:hover {
 
 /* class component UHP */
 
-#second-section-videos {
-  margin-top: 100px;
-  margin-left: 100px;
-  width: 558px;
-}
-
-#userhp-video2 {
-  margin-top: 50px;
+#section-one {
+  display: flex;
+  margin-left: 60px;
 }
 
 
-.notecardone {
-  width: 558px;
+.card-one {
+  width: 650px;
+  padding-top: 50px;
 }
 
-.notecardtwo {
-  width: 558px;
+.card-two {
+  width: 650px;
+  padding-left: 100px;
 }
 
-#second-section-notecards {
-  float: right;
-  width: 558px;
+
+#timeline-headline {
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  padding-left: 30px;
+
 }
+
+#timeline-videos {
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.vid-1 {
+  padding-left: 25px;
+  padding-top: 50px;
+}
+
+.vid-2 {
+  padding-top: 50px;
+}
+
+.vid-3 {
+  padding-top: 50px;
+}
+
+
+
 
 
 

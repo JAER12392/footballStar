@@ -1,6 +1,5 @@
 import React, {PropTypes} from 'react';
 //import MainPage from './mainpage/MainPage.js';
-// <MainPage />
 import  UserHomePage from './userhomepage/UserHomePage.js';
 
 
@@ -16,6 +15,7 @@ import  UserHomePage from './userhomepage/UserHomePage.js';
     //  <MuiThemeProvider>
     //  <NewsPage />
     // </MuiThemeProvider>
+      // <MainPage />
 
 
 class App extends React.Component {
