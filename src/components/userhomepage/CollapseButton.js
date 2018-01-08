@@ -17,33 +17,33 @@ class CollapseButton extends React.Component {
   render() {
     return (
       <div>
-        <div onClick={() => this.setState({ open: !this.state.open })}>
+        <div  id="first-drop-card" onClick={() => this.setState({ open: !this.state.open })}>
         <Col l={4} m={6} s={12}>
-            <Card className="red" offset="l1" textClassName='white-text' title='Predicting The 2017-18 Premier League Season'>
-              The Premier League is back! Who will win the title in 2017-18? Who will finish in the coveted Champions League spots? Which the three clubs will go down? And who will finish as top scorer and player of the year?
+            <Card className="red" offset="l1" textClassName='white-text' title='Coutinho thrilled to live with idols at Barcelona after move from Liverpool'>
+                 Philippe Coutinho says he is living the dream after completing his move to Barcelona.The finishing touches have been put on his British record transfer from Liverpool, which could be worth up to £142 million, and the Spanish club will parade him at the Nou Camp on Monday.
             </Card>
         </Col>
         </div>
         <Collapse in={this.state.open}>
              <div>
               <Col l={4} m={6} s={12}>
-                  <Card className="red" offset="l1" textClassName='white-text' title='Predicting The 2017-18 Premier League Season'>
-                    The Premier League is back! Who will win the title in 2017-18? Who will finish in the coveted Champions League spots? Which the three clubs will go down? And who will finish as top scorer and player of the year?
+                  <Card className="red" offset="l1" textClassName='white-text' title='Real Madrid boss Zinedine Zidane angry after team drops points vs. Celta'>
+                    Real Madrid coach Zinedine Zidane admitted to being angry with his teams performance after they dropped two more points in Sunday evenings 2-2 draw at Celta Vigo to slip even further behind runaway La Liga leaders Barcelona.
                   </Card>
               </Col>
               <Col l={4} m={6} s={12}>
-                  <Card className="red" offset="l1" textClassName='white-text' title='Predicting The 2017-18 Premier League Season'>
-                    The Premier League is back! Who will win the title in 2017-18? Who will finish in the coveted Champions League spots? Which the three clubs will go down? And who will finish as top scorer and player of the year?
+                  <Card className="red" offset="l1" textClassName='white-text' title='Monterrey coach confirms Efrain Juarez is considering MLS move'>
+                      Monterrey defender Efrain Juarez is nearing a move to Major League Soccer, according to Rayados coach Antonio Mohamed. Juarez was left out of the Monterrey squad for Saturday's 1-1 draw with Morelia in the 2018 Clausura season opener in Estadio BBVA Bancomer and Mohamed said it was because the player is set to leave the club
                   </Card>
               </Col>
               <Col l={4} m={6} s={12}>
-                  <Card className="red" offset="l1" textClassName='white-text' title='Predicting The 2017-18 Premier League Season'>
-                    The Premier League is back! Who will win the title in 2017-18? Who will finish in the coveted Champions League spots? Which the three clubs will go down? And who will finish as top scorer and player of the year?
+                  <Card className="red" offset="l1" textClassName='white-text' title='Antoine Griezmanns wage demands could rule out Manchester United move'>
+                      Just as he was in the summer, Antoine Griezmann is being linked with Manchester United -- but they will have to dig very deep to sign him from Atletico Madrid, according to the Sun. It reports that Griezmann "will demand a staggering £400,000 a week to snub Barcelona and join United."
                   </Card>
               </Col>
               <Col l={4} m={6} s={12}>
-                  <Card className="red" offset="l1" textClassName='white-text' title='Predicting The 2017-18 Premier League Season'>
-                    The Premier League is back! Who will win the title in 2017-18? Who will finish in the coveted Champions League spots? Which the three clubs will go down? And who will finish as top scorer and player of the year?
+                  <Card className="red" offset="l1" textClassName='white-text' title='Jose Mourinhos Manchester United future: Does boss deserve a deal?'>
+                    Jose Mourinho's Manchester United future is uncertain amid conflicting reports over whether he will remain manager come the end of the season. Mourinho has cut an increasingly agitated figure in recent weeks after seeing bitter rival Pep Guardiola mastermind Manchester City's rise to the top of the Premier League by 15 points.
                   </Card>
               </Col>
               </div>
