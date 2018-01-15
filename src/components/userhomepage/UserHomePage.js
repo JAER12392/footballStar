@@ -4,7 +4,9 @@ import MainCard from './MainCard.js';
 import VideoOne from './Video-One.js'
 import VideoTwo from './Video-Two.js'
 import VideoThree from './Video-Three.js';
+import VideoFour from './Video-Four.js';
 import CollapseButton from './CollapseButton.js';
+import NewsTicker from './News-Ticker.js';
 import { Col, Card } from 'react-materialize';
 import 'materialize-css';
 
@@ -24,9 +26,17 @@ class UserHomePage extends React.Component {
               <VideoTwo />
               <div className="vid-3">
               <VideoThree />
-              </div></div></div>
+              <div className="vid-4">
+              <VideoFour />
+              <p id="timeline-breakingnews"> Breaking News </p>
+              </div></div></div></div>
               <p id="timeline-headline">World Headlines </p>
+                <div id="collapse-notecard">
                 <CollapseButton />
+                </div>
+              </div>
+              <div>
+                  <NewsTicker />
               </div>
               <footer>
                 <ul>
