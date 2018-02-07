@@ -24,8 +24,7 @@ class LoginPage extends React.Component {
                     <a>Create Account </a>
               </div>
           </div>
-      </div>
-      );
+      </div>      );
   }
 
 }

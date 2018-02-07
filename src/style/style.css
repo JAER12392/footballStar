@@ -5,25 +5,28 @@
 /* CSS for for LoginPage */
 
 .login-background {
-  background-color: #f3f3f3;
+  background-image: url('https://s5.postimg.org/k2z0dozo7/football-star.jpg');
+  background-size: cover;
+  background-position: bottom;
+  box-shadow: inset 0px 0px 20px 20px;
 }
 
 .login-background hr {
   color: red;
 }
 .form-box {
-  padding-top: 25px;
+  padding-top: 15px;
   padding-left: 100px;
   padding-right: 100px;
   text-align: center;
 }
 
 .login-box {
-  height: 500px;
+  height: 520px;
   width: 480px;
-  border: dotted red;
   margin: 100 auto;
   background-color: white;
+  opacity: 0.9;
 }
 
 .login-box h1 {
@@ -49,6 +52,7 @@
 .form-box Button:hover {
   color: red;
 }
+
 
 #icon-3 {
   padding-left: 205px;
