@@ -1,28 +1,15 @@
 import React, {PropTypes} from 'react';
 //import MainPage from './mainpage/MainPage.js';
-import  UserHomePage from './userhomepage/UserHomePage.js';
+//import  UserHomePage from './userhomepage/UserHomePage.js';
+import LoginPage from './loginpage/LoginPage.js';
 
-
-
-    //The above is for the app side of the page the very front page
-
-
-      // <div>
-      // <UserHomePage />
-
-      // </div>
-
-    //  <MuiThemeProvider>
-    //  <NewsPage />
-    // </MuiThemeProvider>
-      // <MainPage />
 
 
 class App extends React.Component {
   render() {
     return (
       <div className="appParent">
-        <UserHomePage />
+        <LoginPage />
       </div>
     );
   }

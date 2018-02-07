@@ -7,8 +7,10 @@ import VideoThree from './Video-Three.js';
 import VideoFour from './Video-Four.js';
 import CollapseButton from './CollapseButton.js';
 import NewsTicker from './News-Ticker.js';
+import PopoverScroller from './PopoverScroller.js';
 import { Col, Card } from 'react-materialize';
 import 'materialize-css';
+
 
 class UserHomePage extends React.Component {
   render() {
@@ -29,6 +31,9 @@ class UserHomePage extends React.Component {
               <div className="vid-4">
               <VideoFour />
               <p id="timeline-breakingnews"> Breaking News </p>
+              <div id="pop-scroll">
+              <PopoverScroller />
+              </div>
               </div></div></div></div>
               <p id="timeline-headline">World Headlines </p>
                 <div id="collapse-notecard">

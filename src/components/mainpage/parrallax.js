@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import { Parallax, Col, Card } from 'react-materialize';
 import FaFutbol from 'react-icons/lib/fa/futbol-o';
 import FaStar from 'react-icons/lib/fa/star-o';

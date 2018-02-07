@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Collapse, Well } from 'react-bootstrap';
+import { Button, Collapse, Well, Popover} from 'react-bootstrap';
 import { Col, Card } from 'react-materialize';
 import 'materialize-css';
 
@@ -16,7 +16,7 @@ class CollapseButton extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="collapse-cards">
         <div className="hvr-shutter-in-vertical">
         <div  className="first-drop-card"  onClick={() => this.setState({ open: !this.state.open })}>
         <Col l={4} m={6} s={12}>
@@ -26,15 +26,16 @@ class CollapseButton extends React.Component {
         </Col>
         </div>
         </div>
-        <div className="dropdown-notecards">
         <Collapse in={this.state.open}>
              <div>
              <div className="hvr-sweep-to-left">
+             <div className="second-drop-card">
               <Col l={4} m={6} s={12}>
                   <Card className="red" offset="l1" textClassName='white-text' title='Real Madrid boss Zinedine Zidane angry after team drops points vs. Celta'>
                     Real Madrid coach Zinedine Zidane admitted to being angry with his teams performance after they dropped two more points in Sunday evenings 2-2 draw at Celta Vigo to slip even further behind runaway La Liga leaders Barcelona.
                   </Card>
               </Col>
+              </div>
               </div>
               <div className="hvr-radial-out">
               <Col l={4} m={6} s={12}>
@@ -59,7 +60,6 @@ class CollapseButton extends React.Component {
               </div>
               </div>
         </Collapse>
-        </div>
       </div>
     );
   }
