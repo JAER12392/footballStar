@@ -292,6 +292,64 @@ footer a:hover {
 /* CSS for for MatchesPage */
 /* CSS for for NewsPage */
 /* CSS for for PlayersPage */
+
+#player-img {
+
+}
+
+#achieve-component {
+
+}
+
+#player-demo {
+
+}
+
+#userhp-video5 {
+
+}
+
+#stat-player {
+
+}
+
+/* Stat Circles CSS */
+
+#container-circle {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+#container-circle-two {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+#container-circle-three {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+#container-circle-four {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* CSS for for UserHomePage */
 
 /* class component UHP */

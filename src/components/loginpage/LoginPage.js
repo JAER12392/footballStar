@@ -17,7 +17,7 @@ class LoginPage extends React.Component {
                    <form onSubmitChange={this.onSubmitChange}>
                      <FormControl onChange={this.onInputChange} type="text" placeholder="email" name="email" bsSize="large" />
                      <FormControl onChange={this.onInputChange} type="text" placeholder="password" name="password" bsSize="large" />
-                     <Button className="submit" type="submit">Submit</Button>
+                     <Button bsStyle="danger" className="submit" type="submit">Submit</Button>
                    </form>
                      <p>Don't have an account? </p>
                     <br />
