@@ -1,6 +1,66 @@
 /* CSS for App */
 
 /* CSS for for AnecdotesPages */
+.intro-title {
+  margin-top: 100px;
+  margin-left: 150px;
+  height: 10vw;
+}
+
+.first-story-body {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hr {
+  background-color: red;
+  height: 1.5px;
+}
+
+.intro-title h2 {
+ font-family: 'Poiret One', cursive;
+}
+
+
+.intro-title h6 {
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.intro-title h5 {
+  font-style: italic;
+  font-size: 12px;
+}
+
+#imgz-container {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.image-zeus {
+  height: 200px;
+  width: 200px;
+}
+
+.front-page {
+  display: flex;
+}
+
+.about-name {
+  font-family: 'Poiret One', cursive;
+  font-size: 26px;
+}
+
+#introduction-seattle {
+  width: 25vw;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#body-ancedote {
+  width: 45vw;
+  margin-top: 80px;
+}
+
 /* CSS for for JAERPage */
 /* CSS for for LoginPage */
 

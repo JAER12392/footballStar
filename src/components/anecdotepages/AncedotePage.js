@@ -8,19 +8,16 @@ class AncedotePage extends React.Component {
   render() {
     return (
         <div>
-            <div>
-            <LoggedInHeader />
+            <hr className='hr' />
+            <div className="header-ancedote">
+                <LoggedInHeader />
             </div>
-            <div id="title-intoduction">
-                <TitleIntro />
-            </div>
-            <div className="body-ancedote">
-                <BodyAncedote />
-            </div>
-            <div className="about-container">
-                <AboutContainer />
-            </div>
-
+              <div className="front-page">
+                    <TitleIntro />
+                 <div id="imgz-container">
+                    <AboutContainer />
+                </div>
+               </div>
         </div>
       );
 
