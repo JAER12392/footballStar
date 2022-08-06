@@ -75,7 +75,7 @@
     "slick": "^1.12.2",
     "style-loader": "^0.18.2",
     "unicorn-ui": "^0.1.0",
-    "video-react": "^0.8.10",
+    "video-react": "^0.15.0",
     "webpack": "^1.15.0",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.12.2",
