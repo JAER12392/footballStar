@@ -58,7 +58,7 @@
     "npm-run-all": "^3.0.0",
     "nsp": "^2.6.1",
     "numeral": "^1.5.3",
-    "open": "0.0.5",
+    "open": "6.0.0",
     "progressbar.js": "^1.0.1",
     "react": "^15.6.2",
     "react-bootstrap": "^0.31.3",
