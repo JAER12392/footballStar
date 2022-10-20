@@ -46,7 +46,7 @@
     "history": "^4.7.2",
     "hover.css": "^2.2.1",
     "html-webpack-plugin": "^2.22.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "jsdom": "^9.4.2",
     "localtunnel": "^1.8.1",
     "material-ui": "^0.19.3",
