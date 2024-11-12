@@ -54,7 +54,7 @@
     "materialize-css": "^0.100.2",
     "mocha": "^3.0.2",
     "nock": "^8.0.0",
-    "nodemon": "^1.12.1",
+    "nodemon": "^2.0.3",
     "npm-run-all": "^3.0.0",
     "nsp": "^2.6.1",
     "numeral": "^1.5.3",
